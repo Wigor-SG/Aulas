@@ -1,0 +1,97 @@
+body {
+
+    background-color: green;
+    font-size: 10px;
+
+}
+
+div {
+
+    border: 2px black solid;
+
+}
+
+#teste {
+
+    width: 200px;
+    height: 200px;
+    background-color: green;
+    border: 1px black solid;
+    border-radius: 20px;
+
+}
+
+@media only print {
+
+    h3 {
+
+        display: none;
+
+    }
+
+}
+
+@media only screen {
+
+    h2 {
+
+        display: none;
+
+    }
+
+}
+
+@media (min-width:1000px) {
+
+    body {
+
+        background-color: blue;
+        font-size: 60px;
+
+    }
+
+}
+
+@media (min-width: 800px) and (max-width: 1000px) {
+
+    body {
+
+        background-color: yellow;
+        font-size: 50px;
+
+    }
+
+}
+
+@media (min-width: 600px) and (max-width: 800px) {
+
+    body {
+
+        background-color: pink;
+        font-size: 40px;
+
+    }
+
+}
+
+@media (min-width: 400px) and (max-width: 600px) {
+
+    body {
+
+        background-color: red;
+        font-size: 30px;
+
+    }
+
+}
+
+@media (min-width: 200px) and (max-width: 400px) {
+
+    body {
+
+        background-color: cyan;
+        font-size: 20px;
+
+    }
+
+}
