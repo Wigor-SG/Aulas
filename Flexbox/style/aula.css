@@ -1,8 +1,132 @@
-div {
+#geral1 {
 
-    width: 200px;
-    height: 200px;
-    background-color: red;
-    margin: 10px;
+    background-color: blue;
+    display: flex;
 
 }
+
+#div1 {
+
+    background-color: red;
+    margin: 10px;
+    padding:10px;
+    font-size: 18px;
+    flex: 1;
+
+}
+
+#div2 {
+
+    background-color: red;
+    margin: 10px;
+    padding:10px;
+    font-size: 18px;
+    flex: 1;
+
+}
+
+#div3 {
+
+    background-color: red;
+    margin: 10px;
+    padding:10px;
+    font-size: 18px;
+    flex: 2;
+
+}
+
+#div4 {
+
+    background-color: red;
+    margin: 10px;
+    padding:10px;
+    font-size: 18px;
+    flex: 2;
+
+}
+
+#geral2 {
+
+    display: flex;
+    background-color: blue;
+
+}
+
+.div1 {
+
+    background-color: red;
+    margin: 10px;
+    padding:10px;
+    font-size: 18px;
+
+}
+
+#geral3 {
+
+    display: flex;
+    background-color: blue;
+    flex-direction: column;
+
+}
+
+.div2 {
+
+    background-color: red;
+    margin: 10px;
+    padding:10px;
+    font-size: 18px;
+
+}
+
+#geral4 {
+
+    display: flex;
+    background-color: blue;
+    flex-direction: row;
+
+}
+
+.div3 {
+
+    background-color: red;
+    margin: 10px;
+    padding:10px;
+    font-size: 18px;
+
+}
+
+#geral5 {
+
+    display: flex;
+    background-color: blue;
+    flex-direction: column-reverse;
+
+}
+
+.div4 {
+
+    background-color: red;
+    margin: 10px;
+    padding:10px;
+    font-size: 18px;
+
+}
+
+#geral6 {
+
+    display: flex;
+    background-color: blue;
+    flex-direction: row-reverse;
+
+}
+
+.div5 {
+
+    background-color: red;
+    margin: 10px;
+    padding:10px;
+    font-size: 18px;
+
+}
+
+
