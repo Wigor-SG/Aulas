@@ -1,0 +1,36 @@
+* {
+
+    margin: 0;
+    padding: 0;
+
+}
+
+header {
+
+    display: flex;
+    justify-content: center;
+    height: 120px;
+
+}
+
+.container {
+
+    width: 990px;
+    background-color: blue;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.logo {
+
+    display: flex;
+    align-items: center;
+
+}
+
+.menu {
+
+
+
+}       
