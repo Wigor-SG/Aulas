@@ -16,7 +16,6 @@ header {
 .container {
 
     width: 990px;
-    background-color: blue;
     display: flex;
     justify-content: space-between;
 
@@ -28,9 +27,3 @@ header {
     align-items: center;
 
 }
-
-.menu {
-
-
-
-}       
