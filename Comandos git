@@ -13,7 +13,8 @@
   git pull origin "nome branch": Vai puxar os arquivos da branch do Git para a branch na sua maquina (Os arquivos irão vir na branch que voce está no momento.)
 
 
-  git add -A: -A vai enviar os arquivos que voce editou para o repositório local.
+  git add -A: vai enviar os arquivos que voce editou para o repositório local.
+  (Usar "-A" ou "." para enviar todos os arquivos editados para area de standing(Onde os arquivos esperam para ser commitados e ai sim serem adicionados ao repositório) Caso queira adicionar apenas um arquivo especifico ex: git add testes.html )
 
 
   git commit -m "Commit": Vai criar um commit (Comentario) que ao visualizar o repositório no gitHub será possivel ver, isso para entendermos porque essa edição foi feita.
