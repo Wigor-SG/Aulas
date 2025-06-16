@@ -23,9 +23,10 @@
   git status: Verica qual o status dos meus arquivos, se estão pendentes se já foram enviados mas não commitados ou se já foram commitados.
 
 
-  git init: cria o repositório git
+  git init: Cria seu Repositorio local no git
 
 
+  git remote add origin "link do repositório no github": Cria o vinculo entre o repositório do github com seu repositório local.
 
 
   GITFLOW:
@@ -40,5 +41,3 @@
   Git commit -m "commit": para estar adicionando seu comentário
 
   Git push Origin "Branch": para estar enviando seus arquivos para o repositório remoto
-
-  
