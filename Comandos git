@@ -1,0 +1,43 @@
+  git branch: Mostra a lista de branches naquele repositório.
+
+
+  git branch "nome da branch": Criará uma nova Branch.
+
+
+  git checkout "nome da branch": Para mudar de branch que voce está no repositório.
+
+
+  git push origin "nome da branch": Vai enviar os arquivos da sua maquina para o repositório do Git (Vai enviar os arquivos da branch que voce editou para a mesma branch. Não da (Ou eu não seia ainda.) para enviar arquivos de uma branch que voce editou diretamente para outra branch.)
+
+
+  git pull origin "nome branch": Vai puxar os arquivos da branch do Git para a branch na sua maquina (Os arquivos irão vir na branch que voce está no momento.)
+
+
+  git add -A: -A vai enviar os arquivos que voce editou para o repositório local.
+
+
+  git commit -m "Commit": Vai criar um commit (Comentario) que ao visualizar o repositório no gitHub será possivel ver, isso para entendermos porque essa edição foi feita.
+
+
+  git status: Verica qual o status dos meus arquivos, se estão pendentes se já foram enviados mas não commitados ou se já foram commitados.
+
+
+  git init: cria o repositório git
+
+
+
+
+  GITFLOW:
+
+
+  Git Pull origin "branch": para ter sempre os arquivos em dia, caso alguem tenha enviado alguma atualização ou então tenha sido feita uma alteração diretamente pelo Github. 
+
+  Após isso editar o código ao que for nescessário.
+
+  Git add -A: para estar enviando seus arquivos para o repositório Local
+
+  Git commit -m "commit": para estar adicionando seu comentário
+
+  Git push Origin "Branch": para estar enviando seus arquivos para o repositório remoto
+
+  
