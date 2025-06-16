@@ -22,8 +22,7 @@
   git status: Verica qual o status dos meus arquivos, se estão pendentes se já foram enviados mas não commitados ou se já foram commitados.
 
 
-
-
+  git init: Cria seu Repositorio local no git
 
 
 
