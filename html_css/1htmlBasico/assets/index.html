@@ -1,40 +1,80 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="Imagens/Favicon.png" type="image/x-icon">
-    <title>Curso em Video</title>
-</head>
-<body>
-    <h1>O tal do Olá mundo né</h1>
-    <h2>Voltando depois de quase 4 anos</h2>
-        <hr>
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <link rel="shortcut icon" href="Imagens/Favicon.png" type="image/x-icon">
+            <title>Curso em Video</title>
+        </head>
+    <body>
+        <h1>O tal do Olá mundo né</h1>
+        <h2>Voltando depois de quase 4 anos</h2>
+            <hr>
 
-    <h2>Textos padrões em HTML</h2>
-    <h3>Usando Tags para criar primeiros Textos</h3>
-        <hr>
+        <h2>Textos padrões em HTML</h2>
+        <h3>Usando Tags para criar primeiros Textos</h3>
+            <hr>
 
-    <p>Aprendendo a escrever em HTML com as Tags &lt;h1&gt; para criar Titulos, &lt;h2&gt; para subtitulos e assim por diante e &lt;p&gt; para paragrafos comuns </p>
-    <p>Usando a Tag &lt;hr&gt; para criar uma linha Horizontal <br> E a Tag &lt;br&gt; para quebra de linha igual feito aqui</p>
-        <hr>
+        <p>Aprendendo a escrever em HTML com as Tags &lt;h1&gt; para criar Titulos, &lt;h2&gt; para subtitulos e assim por diante e &lt;p&gt; para paragrafos comuns </p>
+        <p>Usando a Tag &lt;hr&gt; para criar uma linha Horizontal <br> E a Tag &lt;br&gt; para quebra de linha igual feito aqui</p>
+            <hr>
 
-    <h2>Imagens</h2>
-    <h3>Colocando imagens no meu Site </h3>
-        <hr>
+        <h2>Imagens</h2>
+        <h3>Colocando imagens no meu Site </h3>
+            <hr>
 
-    <P>Para colocar imagens em HTML basta usar a Tag &lt;img&gt;</P>
-        <img src="../arquivos/android-chrome-192x192.png" alt="Medicenter logo">
-    <p>Também é possivel carregar imagens que não estejam na minha maquina, apenas com o link, basta colocar o URL no lugar de src da tag &lt;img&gt; dessa forma: </p>
-        <img src="https://cdn-icons-png.flaticon.com/256/2875/2875404.png" alt="Logo do google">
-        <hr>
+        <P>Para colocar imagens em HTML basta usar a Tag &lt;img&gt;</P>
+            <img src="../arquivos/android-chrome-192x192.png" alt="Medicenter logo">
+        <p>Também é possivel carregar imagens que não estejam na minha maquina, apenas com o link, basta colocar o URL no lugar de src da tag &lt;img&gt; dessa forma: </p>
+            <img src="https://cdn-icons-png.flaticon.com/256/2875/2875404.png" alt="Logo do google">
+            <hr>
 
-    <h2>Favicon</h2>
-    <h3>Como mudar o Favicon (logo do site que fica la em cima)</h3>
-    <p>Para adicionar o Favicon no site bastar ir na area &lt;head&gt; do HTML e usar a tag &lt;link:favicon&gt; e ai adicionar a imagem da sua escolha no HREF.</p>
-        <hr>
-    
-    <h2>Semântica no HTML5</h2>
-    <h3></h3>
-</body>
+        <h2>Favicon</h2>
+        <h3>Como mudar o Favicon (logo do site que fica la em cima)</h3>
+        <p>Para adicionar o Favicon no site bastar ir na area &lt;head&gt; do HTML e usar a tag &lt;link:favicon&gt; e ai adicionar a imagem da sua escolha no HREF.</p>
+            <hr>
+
+        <h2>Listas com HTML5</h2>
+        <h3>Listas Ordenadas</h3>
+        <p>Listas ordenadas são feitas com as Tags &lt;ol&gt; (ordered List) e &lt;li&gt; (list item). Lista ordenada é uma lista com ordem númerica a ser seguida (1,2,3... ; A,B,C... ; a,b,c... ; I,II,III... ; i,ii,iii...)<br>
+        É possivel mudar o tipo de lista e também o número inicial usando &lt;ol type="" start=""&gt;
+        </p>
+            <ol type="I" start="10">
+                <li>Acordar</li>   
+                <li>Tomar Banho</li>
+                <li>Preparar Café</li>
+                <li>Ir para o PC</li>
+            </ol>
+
+        <h3>Listas Não ordenadas</h3>
+        <p>Listas não ordenadas são feitas com as tags &lt;ul&gt; (unordered list) e &lt;li&gt; (list item). Listas não ordenadas são aquelas que não tem uma ordem correta a ser seguida, por isso são listadas com marcadores simples (Circle, Disc, Square)
+        </p>
+            <ul type="Disc">
+                <li>Geladeira</li>
+                <li>Air Fryer</li>
+                <li>PS5</li>
+                <li>Sofá</li>
+                <li>Ar-Condicionado</li>
+            </ul>
+
+        <h3>Misturando Listas</h3>
+        <h4>Meus jogos Favoritos:</h4>
+            <ol type="I">
+               <li>Antigos</li>
+                    <ul>
+                        <li>Crash Bandicoot</li>
+                        <li>Midnight Club 3</li>
+                        <li>Guitar Hero</li>
+                        <li>God Of War</li>
+                    </ul>
+               <li>Novos</li>
+                    <ul>
+                        <li>Stardew Valley</li>
+                        <li>Elden Ring</li>
+                        <li>Peak</li>
+                        <li>Spider Man: Miles Morales</li>
+                    </ul>
+            </ol>
+
+    </body>
 </html>
